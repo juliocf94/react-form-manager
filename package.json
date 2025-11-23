@@ -1,0 +1,15 @@
+{
+  "name": "react-form-manager",
+  "version": "1.0.0",
+  "main": "rollup.config.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Julio Flores",
+  "license": "ISC",
+  "description": ""
+}
