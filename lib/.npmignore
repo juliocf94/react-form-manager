@@ -1,0 +1,17 @@
+# Excluir carpetas innecesarias
+src/
+examples/
+node_modules/
+tests/
+.idea/
+.vscode/
+dist/*.map
+
+# Archivos generales
+.DS_Store
+Thumbs.db
+
+# Config que no debe ir a npm
+vite.config.js
+rollup.config.js
+package-lock.json

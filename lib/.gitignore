@@ -1,0 +1,49 @@
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# --- Output / Build ---
+dist/
+build/
+*.cache
+.cache/
+.vite/
+.esbuild/
+
+# --- Logs ---
+logs/
+*.log
+*.log.*
+
+# --- PWA Artifacts ---
+public/sw.js
+public/workbox-*.js
+public/manifest.webmanifest
+
+# --- IDEs / Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Tests ---
+coverage/
+*.spec.js
+*.test.js
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Local env ---
+.env
+.env.*.local
+
+# --- Rollup cache ---
+.rollup.cache/

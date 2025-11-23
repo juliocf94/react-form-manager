@@ -1,12 +1,46 @@
 {
-  "name": "lib",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "react-form-manager",
+  "version": "0.0.1",
+  "description": "A React form management library built with Yup validation.",
+  "main": "dist/react-form-manager.cjs.js",
+  "module": "dist/react-form-manager.es.js",
+  "unpkg": "dist/react-form-manager.umd.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vite build",
+    "dev": "vite",
+    "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "Julio Flores",
-  "license": "ISC",
-  "description": ""
+  "keywords": [
+    "react",
+    "forms",
+    "form-manager",
+    "yup",
+    "validation",
+    "react-library",
+    "ui-agnostic",
+    "form"
+  ],
+  "author": "Ash94",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18 || ^17",
+    "react-dom": "^18 || ^17",
+    "yup": "^1 || ^0.32"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "rollup": "^4.53.3",
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "yup": "^1.7.1"
+  },
+  "sideEffects": false
 }
